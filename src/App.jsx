@@ -3,7 +3,7 @@ import './App.css'
 import SearchIcon from './search.svg'
 import MovieCard from './MovieCard'
 
-let API_URL = 'http://www.omdbapi.com?apikey=d6395926'
+let API_URL = 'https://www.omdbapi.com?apikey=d6395926'
 
 
 export default function App(){
