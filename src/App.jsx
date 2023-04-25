@@ -11,7 +11,7 @@ export default function App(){
   let [inputValue,setInputValue] = React.useState('')
 
   React.useEffect( () => {
-    searchMovies('iron man')
+    searchMovies('Black Panther')
   },[])
 
   let searchMovies = async (title) => {
