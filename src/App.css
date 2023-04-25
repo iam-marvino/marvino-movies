@@ -33,7 +33,7 @@ body {
   text-align: center;
 }
 h1 {
-  margin:0 auto;
+  
   width: 100%;
   font-size: 3rem;
   letter-spacing: 0.9px;
@@ -46,9 +46,6 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 1.5rem;
-  
-
-  
 }
 
 .search {
@@ -221,6 +218,10 @@ h1 {
     width: 20px;
     height: 20px;
   }
+
+  h1{
+    font-size: auto ;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -240,4 +241,8 @@ h1 {
     width: "100%";
     margin: 1rem;
   }
+
+  
+ 
 }
+
